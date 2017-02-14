@@ -44,7 +44,7 @@ public class MovieController {
 
         // check and test for the annotation
         System.out.println("user => " + user + "movie =>" + movie);
-
+		// request-pull test
         User u = new User();
         u.setName(authorName);
         u.setLastName(authorLastName);
